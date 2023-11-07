@@ -1,7 +1,9 @@
 #pragma once
 #include<vector>
 
-// Make this a template adt
+// This will be used as a quick way to perform operations on items in a vector container.
+// An example would be if I needed an object to add x to a vector of integer, I would create an object that
+// inherits this class. I would then add the neccessary actions to modify vector elements.
 template <typename T>
 class SetModifier
 {
