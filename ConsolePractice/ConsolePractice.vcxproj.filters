@@ -24,6 +24,9 @@
     <ClCompile Include="ConsolePractice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="InputValidator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Instance.h">
@@ -34,6 +37,9 @@
     </ClInclude>
     <ClInclude Include="SetModifier.h">
       <Filter>Header Files\Boilerplate Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputValidator.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
