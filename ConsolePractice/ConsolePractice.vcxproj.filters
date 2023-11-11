@@ -25,7 +25,7 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="InputValidator.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\Object Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -39,7 +39,7 @@
       <Filter>Header Files\Boilerplate Files</Filter>
     </ClInclude>
     <ClInclude Include="InputValidator.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Object Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

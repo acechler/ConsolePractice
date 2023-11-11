@@ -33,9 +33,9 @@ bool InputValidator::containsDigits(const std::string& input)
 bool InputValidator::containsAlphas(const std::string& input)
 {
     for (auto c : input) {
-        if (std::isalpha(c)) {
-            return true;
-        }
+         if (std::isalpha(c)) {
+		    return true;
+         }
     }
     return false;
 }
