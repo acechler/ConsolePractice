@@ -131,10 +131,8 @@
     <ClCompile Include="InputValidator.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Component.h" />
     <ClInclude Include="InputValidator.h" />
-    <ClInclude Include="Instance.h" />
-    <ClInclude Include="SetModifier.h" />
+    <ClInclude Include="IShoppingItem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

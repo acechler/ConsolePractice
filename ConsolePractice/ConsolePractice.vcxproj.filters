@@ -29,17 +29,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Instance.h">
-      <Filter>Header Files\Boilerplate Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Component.h">
-      <Filter>Header Files\Boilerplate Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SetModifier.h">
-      <Filter>Header Files\Boilerplate Files</Filter>
-    </ClInclude>
     <ClInclude Include="InputValidator.h">
       <Filter>Header Files\Object Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IShoppingItem.h">
+      <Filter>Header Files\Boilerplate Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
