@@ -128,9 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsolePractice.cpp" />
+    <ClCompile Include="FoodMarket.cpp" />
+    <ClCompile Include="GroceryItem.cpp" />
     <ClCompile Include="InputValidator.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FoodMarket.h" />
+    <ClInclude Include="GroceryItem.h" />
+    <ClInclude Include="IMarket.h" />
     <ClInclude Include="InputValidator.h" />
     <ClInclude Include="IShoppingItem.h" />
   </ItemGroup>

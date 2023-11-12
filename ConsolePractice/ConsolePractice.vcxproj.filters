@@ -19,6 +19,9 @@
     <Filter Include="Header Files\Object Files">
       <UniqueIdentifier>{cf44a8bc-f942-48e8-b82f-ff6eb9d286b9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Object Files\Market">
+      <UniqueIdentifier>{edc4ef41-876b-41c9-bb0f-8649994e2808}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ConsolePractice.cpp">
@@ -27,6 +30,12 @@
     <ClCompile Include="InputValidator.cpp">
       <Filter>Header Files\Object Files</Filter>
     </ClCompile>
+    <ClCompile Include="GroceryItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FoodMarket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="InputValidator.h">
@@ -34,6 +43,15 @@
     </ClInclude>
     <ClInclude Include="IShoppingItem.h">
       <Filter>Header Files\Boilerplate Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GroceryItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IMarket.h">
+      <Filter>Header Files\Boilerplate Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FoodMarket.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
